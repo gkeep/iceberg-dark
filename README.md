@@ -5,19 +5,18 @@ Meant to replace iceberg.vim in places, where original theme is hard to read.
 ## Currently supported:
 ### [lightline.vim](https://github.com/itchyny/lightline.vim):
 
-Old: ![old](screenshots/lightline_old.png)
+Original iceberg theme: ![old](screenshots/lightline_old.png)
 
-New: ![new](screenshots/lightline_new.png)
+iceberg-dark theme: ![new](screenshots/lightline_new.png)
 
-Installation:
+Installation via [vim-plug](https://github.com/junegunn/vim-plug): put `Plug 'gkeep/iceberg-dark'` in your init.vim/.vimrc and run `:PlugInstall` to install the theme.
 
-Via [vim-plug](https://github.com/junegunn/vim-plug):
-    `Plug 'gkeep/iceberg-dark'`
+Then put `let g:lightline = { 'colorscheme': 'icebergDark' }` in your init.vim/.vimrc to enable the theme.
 
 ### [bumblebee-status](https://github.com/tobi-wan-kenobi/bumblebee-status)
 
-Old: ![bumblebee-status old](screenshots/bumblebee_old.png)
+Original iceberg theme: ![bumblebee-status old](screenshots/bumblebee_old.png)
 
-New: ![bumblebee-status new](screenshots/bumblebee_new.png)
+iceberg-dark theme: ![bumblebee-status new](screenshots/bumblebee_new.png)
 
 Installation is not required, available at [bumblebee-status repository](https://github.com/tobi-wan-kenobi/bumblebee-status)
