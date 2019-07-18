@@ -13,7 +13,7 @@ Installation via [vim-plug](https://github.com/junegunn/vim-plug): put `Plug 'gk
 
 Then put `let g:lightline = { 'colorscheme': 'icebergDark' }` in your init.vim/.vimrc to enable the theme.
 
-### [bumblebee-status](https://github.com/tobi-wan-kenobi/bumblebee-status)
+### [bumblebee-status](https://github.com/tobi-wan-kenobi/bumblebee-status):
 
 Original iceberg theme: ![bumblebee-status old](screenshots/bumblebee_old.png)
 
