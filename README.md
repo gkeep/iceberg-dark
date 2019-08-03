@@ -13,6 +13,20 @@ Installation via [vim-plug](https://github.com/junegunn/vim-plug): put `Plug 'gk
 
 Then put `let g:lightline = { 'colorscheme': 'icebergDark' }` in your init.vim/.vimrc to enable the theme.
 
+### [tmux](https://github.com/tmux/tmux):
+
+Initially made with [tmuxline.vim](https://github.com/edkolev/tmuxline.vim), but modified along the way.
+
+![tmux screenshot](screenshots/tmux.png)
+
+Installation: 
+
+1. Clone the repo: `git clone https://github.com/gkeep/iceberg-dark`
+
+2. Copy `.tmux/iceberg.tmux.conf` to `~/.tmux`
+
+3. Add `source-file ~/.tmux/iceberg.tmux.conf` to your `~/.tmux.conf`
+
 ### [bumblebee-status](https://github.com/tobi-wan-kenobi/bumblebee-status):
 
 Original iceberg theme: ![bumblebee-status old](screenshots/bumblebee_old.png)
