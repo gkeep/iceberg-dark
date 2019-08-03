@@ -11,9 +11,9 @@ function! s:build_palette() abort
         \ 'visual':   {},
         \ 'tabline':  {}}
 
-  let col_base     = ['#b2b4be', '#161821', 243, 237]
-  let col_edge     = ['#b2b4be', '#353a50', 234, 245]
-  let col_gradient = ['#b2b4be', '#262939', 234, 241]
+  let col_base     = ['#b2b4be', '#1e2132', 243, 237]
+  let col_edge     = ['#b2b4be', '#3d435c', 234, 245]
+  let col_gradient = ['#b2b4be', '#2e3244', 234, 241]
   let col_nc       = ['#b2b4be', '#0f1117', 238, 233]
   let col_tabfill  = ['#b2b4be', '#34394e', 243, 237]
   let col_normal   = ['#b2b4be', '#454b68', 234, 245]
