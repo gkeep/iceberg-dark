@@ -9,9 +9,11 @@ Original iceberg theme: ![old](screenshots/lightline_old.png)
 
 iceberg-dark theme: ![new](screenshots/lightline_new.png)
 
-Installation via [vim-plug](https://github.com/junegunn/vim-plug): put `Plug 'gkeep/iceberg-dark'` in your init.vim/.vimrc and run `:PlugInstall` to install the theme.
+Code snippet with both themes side to side: ![code snippet](screenshots/code_snippet.png)
 
-Then put `let g:lightline = { 'colorscheme': 'icebergDark' }` in your init.vim/.vimrc to enable the theme.
+**Installation** via [vim-plug](https://github.com/junegunn/vim-plug): put `Plug 'gkeep/iceberg-dark'` in your init.vim/.vimrc and run `:PlugInstall` to **install** the theme.
+
+Then put `let g:lightline = { 'colorscheme': 'icebergDark' }` in your init.vim/.vimrc to **enable** the theme.
 
 ### [tmux](https://github.com/tmux/tmux):
 
@@ -29,8 +31,6 @@ Installation:
 
 ### [bumblebee-status](https://github.com/tobi-wan-kenobi/bumblebee-status):
 
-Original iceberg theme: ![bumblebee-status old](screenshots/bumblebee_old.png)
-
-iceberg-dark theme: ![bumblebee-status new](screenshots/bumblebee_new.png)
+![bumblebee-status](screenshots/bumblebee.png)
 
 Installation is not required, available at [bumblebee-status repository](https://github.com/tobi-wan-kenobi/bumblebee-status)
