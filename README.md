@@ -1,8 +1,10 @@
 # iceberg-dark
 Theme for various programs, designed with love for [iceberg.vim](https://github.com/cocopon/iceberg.vim) theme. 
 
-Meant to replace iceberg.vim in places, where original theme is hard to read.
+Meant to bring [iceberg.vim](https://github.com/cocopon/iceberg.vim) to other environments and to replace it in places, where original theme is hard to read.
+
 ## Currently supported:
+
 ### [lightline.vim](https://github.com/itchyny/lightline.vim):
 
 Original iceberg theme: ![old](screenshots/lightline_old.png)
@@ -33,4 +35,4 @@ Installation:
 
 ![bumblebee-status](screenshots/bumblebee.png)
 
-Installation is not required, available at [bumblebee-status repository](https://github.com/tobi-wan-kenobi/bumblebee-status)
+Installation is not required, available at [bumblebee-status repository](https://github.com/tobi-wan-kenobi/bumblebee-status).
