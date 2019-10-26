@@ -40,3 +40,7 @@ Installation:
 ![bumblebee-status](screenshots/bumblebee.png)
 
 Installation is not required, available at [bumblebee-status repository](https://github.com/tobi-wan-kenobi/bumblebee-status).
+
+# License
+
+MIT license. See `LICENSE` for more information.
