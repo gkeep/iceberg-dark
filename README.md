@@ -3,6 +3,8 @@ Theme for various programs, designed with love for [iceberg.vim](https://github.
 
 Meant to bring [iceberg.vim](https://github.com/cocopon/iceberg.vim) to other environments and to replace it in places, where original theme is hard to read.
 
+![tmux+lightline screenshot](screenshots/tmux_lightline.png)
+
 **Requirements**:
 
 * A [Nerd Font](https://github.com/ryanoasis/nerd-fonts/#patched-fonts) (if you don't use one already) for special characters support.
