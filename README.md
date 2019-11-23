@@ -25,7 +25,7 @@ Then put `let g:lightline = { 'colorscheme': 'icebergDark' }` in your init.vim/.
 
 ### [tmux](https://github.com/tmux/tmux):
 
-Initially made with [tmuxline.vim](https://github.com/edkolev/tmuxline.vim), but modified along the way.
+Made with the help of [tmuxline.vim](https://github.com/edkolev/tmuxline.vim)!
 
 ![tmux screenshot](screenshots/tmux.png)
 
@@ -43,6 +43,6 @@ Installation:
 
 Installation is not required, available at [bumblebee-status repository](https://github.com/tobi-wan-kenobi/bumblebee-status).
 
-# License
+## License
 
-MIT license. See `LICENSE` for more information.
+MIT license. See [LICENSE](https://github.com/gkeep/iceberg-dark/blob/master/LICENSE) for more information.
