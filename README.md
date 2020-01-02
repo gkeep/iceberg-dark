@@ -19,11 +19,31 @@ iceberg-dark theme: ![new](screenshots/lightline_new.png)
 
 Code snippet with both themes side to side: ![code snippet](screenshots/code_snippet.png)
 
-**Installation** via [vim-plug](https://github.com/junegunn/vim-plug): put `Plug 'gkeep/iceberg-dark'` in your init.vim/.vimrc and run `:PlugInstall` to **install** the theme.
+**Installation** via [vim-plug](https://github.com/junegunn/vim-plug): 
 
-Then put `let g:lightline = { 'colorscheme': 'icebergDark' }` in your init.vim/.vimrc to **enable** the theme.
+ 1. Put `Plug 'gkeep/iceberg-dark'` in your init.vim/.vimrc 
+
+ 2. Run `:PlugInstall` to **install** the theme.
+
+ 3. Put `let g:lightline = { 'colorscheme': 'icebergDark' }` in your init.vim/.vimrc to **enable** the theme.
 
 ### [tmux](https://github.com/tmux/tmux):
+
+#### Minimal
+
+Inspired by [this](https://www.reddit.com/r/unixporn/comments/e6x7lz/dwm_blue_stripes/) post at [r/unixporn](https://www.reddit.com/r/unixporn).
+
+![tmux minimal screenshot](screenshots/tmux_minimal.png)
+
+Installation: 
+
+1. Clone the repo: `git clone https://github.com/gkeep/iceberg-dark`
+
+2. Copy `.tmux/iceberg_minimal.tmux.conf` to `~/.tmux`
+
+3. Add `source-file ~/.tmux/iceberg_minimal.tmux.conf` to your `~/.tmux.conf`
+
+#### With slants
 
 Made with the help of [tmuxline.vim](https://github.com/edkolev/tmuxline.vim)!
 
