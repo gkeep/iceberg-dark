@@ -1,5 +1,5 @@
 # iceberg-dark
-Theme for various programs, designed with love for [iceberg.vim](https://github.com/cocopon/iceberg.vim) theme. 
+Theme for various programs, designed with love for [iceberg.vim](https://github.com/cocopon/iceberg.vim) theme.
 
 Meant to bring [iceberg.vim](https://github.com/cocopon/iceberg.vim) to other environments and to replace it in places, where original theme is hard to read.
 
@@ -19,9 +19,9 @@ iceberg-dark theme: ![new](screenshots/lightline_new.png)
 
 Code snippet with both themes side to side: ![code snippet](screenshots/code_snippet.png)
 
-**Installation** via [vim-plug](https://github.com/junegunn/vim-plug): 
+**Installation** via [vim-plug](https://github.com/junegunn/vim-plug):
 
- 1. Put `Plug 'gkeep/iceberg-dark'` in your init.vim/.vimrc 
+ 1. Put `Plug 'gkeep/iceberg-dark'` in your init.vim/.vimrc
 
  2. Run `:PlugInstall` to **install** the theme.
 
@@ -35,13 +35,15 @@ Inspired by [this](https://www.reddit.com/r/unixporn/comments/e6x7lz/dwm_blue_st
 
 ![tmux minimal screenshot](screenshots/tmux_minimal.png)
 
-Installation: 
+Installation:
 
-1. Clone the repo: `git clone https://github.com/gkeep/iceberg-dark`
+1. To download, run the following command:
+```
+wget -O $HOME/.tmux/iceberg_minimal.tmux.conf \
+https://raw.githubusercontent.com/gkeep/iceberg-dark/master/.tmux/iceberg_minimal.tmux.conf
+```
 
-2. Copy `.tmux/iceberg_minimal.tmux.conf` to `~/.tmux`
-
-3. Add `source-file ~/.tmux/iceberg_minimal.tmux.conf` to your `~/.tmux.conf`
+2. Add `source-file ~/.tmux/iceberg_minimal.tmux.conf` to your `~/.tmux.conf`
 
 #### With slants
 
@@ -49,13 +51,15 @@ Made with the help of [tmuxline.vim](https://github.com/edkolev/tmuxline.vim)!
 
 ![tmux screenshot](screenshots/tmux.png)
 
-Installation: 
+Installation:
 
-1. Clone the repo: `git clone https://github.com/gkeep/iceberg-dark`
+1. To download, run the following command:
+```
+wget -O $HOME/.tmux/iceberg.tmux.conf \
+https://raw.githubusercontent.com/gkeep/iceberg-dark/master/.tmux/iceberg.tmux.conf
+```
 
-2. Copy `.tmux/iceberg.tmux.conf` to `~/.tmux`
-
-3. Add `source-file ~/.tmux/iceberg.tmux.conf` to your `~/.tmux.conf`
+2. Add `source-file ~/.tmux/iceberg.tmux.conf` to your `~/.tmux.conf`
 
 ### [bumblebee-status](https://github.com/tobi-wan-kenobi/bumblebee-status):
 
