@@ -63,6 +63,8 @@ Installation:
 
 Installation is not required, available at [bumblebee-status repository](https://github.com/tobi-wan-kenobi/bumblebee-status).
 
+Source code available at the root of this repository.
+
 ## License
 
 MIT license. See [LICENSE](https://github.com/gkeep/iceberg-dark/blob/master/LICENSE) for more information.
