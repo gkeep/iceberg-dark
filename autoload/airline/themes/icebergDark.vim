@@ -59,7 +59,7 @@ function! s:build_palette() abort
 endfunction
 
 
-let g:airline#themes#iceberg#palette = s:build_palette()
+let g:airline#themes#icebergDark#palette = s:build_palette()
 
 
 let &cpo = s:save_cpo
