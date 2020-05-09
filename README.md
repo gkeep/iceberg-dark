@@ -3,7 +3,11 @@ Theme for various programs, designed with love for [iceberg.vim](https://github.
 
 Meant to bring [iceberg.vim](https://github.com/cocopon/iceberg.vim) to other environments and to replace it in places, where original theme is hard to read.
 
-![tmux+lightline screenshot](screenshots/tmux_lightline.png)
+![lightline & slanted tmux screenshot](screenshots/lightline_tmux.png)
+<p style="text-align: center;"><i>Lightline theme with slanted tmux theme</i></p>
+
+![airline & tmux minimal screenshot](screenshots/airline_tmux.png)
+<p style="text-align: center;"><i>Airline theme with minimal tmux theme</i></p>
 
 **Requirements**:
 
@@ -26,6 +30,18 @@ Code snippet with both themes side to side: ![code snippet](screenshots/code_sni
  2. Run `:PlugInstall` to **install** the theme.
 
  3. Put `let g:lightline = { 'colorscheme': 'icebergDark' }` in your init.vim/.vimrc to **enable** the theme.
+
+### [vim-airline](https://github.com/vim-airline/vim-airline):
+
+![airline](screenshots/airline.png)
+
+**Installation** via [vim-plug](https://github.com/junegunn/vim-plug):
+
+ 1. Put `Plug 'gkeep/iceberg-dark'` in your init.vim/.vimrc
+
+ 2. Run `:PlugInstall` to **install** the theme.
+
+ 3. Put `let g:airline_theme='icebergDark'` in your init.vim/.vimrc to **enable** the theme.
 
 ### [tmux](https://github.com/tmux/tmux):
 
