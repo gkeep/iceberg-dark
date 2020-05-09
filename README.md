@@ -3,11 +3,14 @@ Theme for various programs, designed with love for [iceberg.vim](https://github.
 
 Meant to bring [iceberg.vim](https://github.com/cocopon/iceberg.vim) to other environments and to replace it in places, where original theme is hard to read.
 
+<div align="center"><em>Lightline theme with slanted tmux theme</em></div>
+
 ![lightline & slanted tmux screenshot](screenshots/lightline_tmux.png)
-<p style="text-align: center;"><i>Lightline theme with slanted tmux theme</i></p>
+
+<div align="center"><em>Airline theme with minimal tmux theme</em></div>
 
 ![airline & tmux minimal screenshot](screenshots/airline_tmux.png)
-<p style="text-align: center;"><i>Airline theme with minimal tmux theme</i></p>
+
 
 **Requirements**:
 
