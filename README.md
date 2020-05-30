@@ -58,7 +58,7 @@ Installation:
 
 1. To download, run the following command:
 ```
-wget -O $HOME/.tmux/iceberg_minimal.tmux.conf \
+wget -O -x $HOME/.tmux/iceberg_minimal.tmux.conf \
 https://raw.githubusercontent.com/gkeep/iceberg-dark/master/.tmux/iceberg_minimal.tmux.conf
 ```
 
@@ -74,7 +74,7 @@ Installation:
 
 1. To download, run the following command:
 ```
-wget -O $HOME/.tmux/iceberg.tmux.conf \
+wget -O -x $HOME/.tmux/iceberg.tmux.conf \
 https://raw.githubusercontent.com/gkeep/iceberg-dark/master/.tmux/iceberg.tmux.conf
 ```
 
