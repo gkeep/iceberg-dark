@@ -56,13 +56,15 @@ Inspired by [this](https://www.reddit.com/r/unixporn/comments/e6x7lz/dwm_blue_st
 
 Installation:
 
-1. To download, run the following command:
+1. Create `~/.tmux` folder: `mkdir ~/.tmux`
+
+2. To download, run the following command:
 ```
-wget -O -x $HOME/.tmux/iceberg_minimal.tmux.conf \
+wget -O $HOME/.tmux/iceberg_minimal.tmux.conf \
 https://raw.githubusercontent.com/gkeep/iceberg-dark/master/.tmux/iceberg_minimal.tmux.conf
 ```
 
-2. Add `source-file ~/.tmux/iceberg_minimal.tmux.conf` to your `~/.tmux.conf`
+3. Add `source-file ~/.tmux/iceberg_minimal.tmux.conf` to your `~/.tmux.conf`
 
 #### With powerline symbols
 
@@ -120,13 +122,15 @@ subseparator_right="\ue0b3"
 ```
 Installation:
 
-1. To download, run the following command:
+1. Create `~/.tmux` folder: `mkdir ~/.tmux`
+
+2. To download, run the following command:
 ```
-wget -O -x $HOME/.tmux/iceberg.tmux.conf \
+wget -O $HOME/.tmux/iceberg.tmux.conf \
 https://raw.githubusercontent.com/gkeep/iceberg-dark/master/.tmux/iceberg.tmux.conf
 ```
 
-2. Add `source-file ~/.tmux/iceberg.tmux.conf` to your `~/.tmux.conf`
+3. Add `source-file ~/.tmux/iceberg.tmux.conf` to your `~/.tmux.conf`
 
 ### [bumblebee-status](https://github.com/tobi-wan-kenobi/bumblebee-status):
 
