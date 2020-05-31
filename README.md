@@ -3,7 +3,7 @@ Theme for various programs, designed with love for [iceberg.vim](https://github.
 
 Meant to bring [iceberg.vim](https://github.com/cocopon/iceberg.vim) to other environments and to replace it in places, where original theme is hard to read.
 
-<div align="center"><em>Lightline theme with slanted tmux theme</em></div>
+<div align="center"><em>Lightline theme with tmux theme</em></div>
 
 ![lightline & slanted tmux screenshot](screenshots/lightline_tmux.png)
 
@@ -64,12 +64,60 @@ https://raw.githubusercontent.com/gkeep/iceberg-dark/master/.tmux/iceberg_minima
 
 2. Add `source-file ~/.tmux/iceberg_minimal.tmux.conf` to your `~/.tmux.conf`
 
-#### With slants
+#### With powerline symbols
 
-Made with the help of [tmuxline.vim](https://github.com/edkolev/tmuxline.vim)!
+#### 👀 NEW: Now with configurable modules and separators!
 
-![tmux screenshot](screenshots/tmux.png)
+Configuration:
 
+1. To configure modules edit `module_left_{1,2}` and `module_right_{1,2}`
+
+By default, comes with **slants** style.
+
+2. To configure separators edit `(sub)separator_left` and `(sub)separator_right`
+
+By default displays `username` and `time` on the left and `local IP address` and `hostname` on the right.
+
+##### Styles:
+
+1. **Slants**:
+
+![slanted tmux theme](screenshots/tmux_slanted.png)
+
+```
+# separators
+separator_left="\ue0bc"
+separator_right="\ue0ba"
+
+subseparator_left="\ue0bb"
+subseparator_right="\ue0bd"
+```
+
+2. **Rounded**:
+
+![rounded tmux theme](screenshots/tmux_rounded.png)
+
+```
+# separators
+separator_left="\ue0b4"
+separator_right="\ue0b6"
+
+subseparator_left="\ue0b5"
+subseparator_right="\ue0b7"
+```
+
+3. **Powerline**:
+
+![powerline tmux theme](screenshots/tmux_powerline.png)
+
+```
+# separators
+separator_left="\ue0b0"
+separator_right="\ue0b2"
+
+subseparator_left="\ue0b1"
+subseparator_right="\ue0b3"
+```
 Installation:
 
 1. To download, run the following command:
