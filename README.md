@@ -54,7 +54,7 @@ Inspired by [this](https://www.reddit.com/r/unixporn/comments/e6x7lz/dwm_blue_st
 
 ![tmux minimal screenshot](screenshots/tmux_minimal.png)
 
-Installation:
+**Installation**:
 
 1. Create `.tmux` folder in your home directory: `mkdir ~/.tmux`
 
@@ -68,8 +68,6 @@ https://raw.githubusercontent.com/gkeep/iceberg-dark/master/.tmux/iceberg_minima
 
 #### With powerline symbols
 
-#### 👀 NEW: Now with configurable modules and separators!
-
 Configuration:
 
 1. To configure modules edit `module_left_{1,2}` and `module_right_{1,2}`
@@ -80,47 +78,7 @@ By default, comes with **slants** style.
 
 By default displays `username` and `time` on the left and `local IP address` and `hostname` on the right.
 
-##### Styles:
-
-1. **Slants**:
-
-![slanted tmux theme](screenshots/tmux_slanted.png)
-
-```
-# separators
-separator_left="\ue0bc"
-separator_right="\ue0ba"
-
-subseparator_left="\ue0bb"
-subseparator_right="\ue0bd"
-```
-
-2. **Rounded**:
-
-![rounded tmux theme](screenshots/tmux_rounded.png)
-
-```
-# separators
-separator_left="\ue0b4"
-separator_right="\ue0b6"
-
-subseparator_left="\ue0b5"
-subseparator_right="\ue0b7"
-```
-
-3. **Powerline**:
-
-![powerline tmux theme](screenshots/tmux_powerline.png)
-
-```
-# separators
-separator_left="\ue0b0"
-separator_right="\ue0b2"
-
-subseparator_left="\ue0b1"
-subseparator_right="\ue0b3"
-```
-Installation:
+**Installation**:
 
 1. Create `.tmux` folder in your home directory: `mkdir ~/.tmux`
 
@@ -132,52 +90,7 @@ https://raw.githubusercontent.com/gkeep/iceberg-dark/master/.tmux/iceberg.tmux.c
 
 3. Add `source-file ~/.tmux/iceberg.tmux.conf` to your `~/.tmux.conf`
 
-Example **iceberg.tmux.conf** configuration:
-```tmux
-# modules
-module_left_1="#(whoami)"
-module_left_2="%R %a"
-
-module_right_1="#(ip route get 1 | awk '{print $7}')"
-module_right_2="#H"
-
-# separators
-separator_left="\ue0bc"
-separator_right="\ue0ba"
-
-subseparator_left="\ue0bb"
-subseparator_right="\ue0bd"
-```
-
-Example **tmux.conf**:
-```tmux
-source-file "$HOME/.tmux/iceberg.tmux.conf"
-
-bind -r H resize-pane -L 5
-bind -r J resize-pane -D 5
-bind -r K resize-pane -U 5
-bind -r L resize-pane -R 5
-
-bind -n S-Left  previous-window
-bind -n S-Right next-window
-```
-
-**_NOTE_**:
-If you plan to use both minimal and powerline themes, you must comment out the unneeded one like this:
-
-```tmux
-#source-file "$HOME/.tmux/iceberg.tmux.conf"
-source-file "$HOME/.tmux/iceberg_minimal.tmux.conf"
-```
-to use the minimal theme
-
-or
-
-```tmux
-source-file "$HOME/.tmux/iceberg.tmux.conf"
-#source-file "$HOME/.tmux/iceberg_minimal.tmux.conf"
-```
-to use the theme with powerline symbols.
+**For further configuration and FAQ see [Repository's Wiki page](https://github.com/gkeep/iceberg-dark/wiki)**
 
 ### [bumblebee-status](https://github.com/tobi-wan-kenobi/bumblebee-status):
 
